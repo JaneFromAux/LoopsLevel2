@@ -24,9 +24,8 @@ let input = document.getElementById('inputLoop');
 let output = document.getElementById('output');
 let arr = [];
 let loop = () => {
-    // console.log("loop loops");
+    console.log("loop loops");
     let inputty = Number(input.value);
-    // console.log(inputty);
     if (inputty == 0) {
         output.innerHTML = "Lp";
     } else {
@@ -34,5 +33,6 @@ let loop = () => {
             arr.push("o");
         }
         output.innerHTML = ` L${arr.join("")}p`;
+        arr = [];
     }
 }
