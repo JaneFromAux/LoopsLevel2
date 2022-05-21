@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+#output {
+    color: lime;
+    font-size: 2.2rem;
+    margin: 2vh auto 4vh auto;
+}
